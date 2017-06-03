@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>esse é o exemplo 3 de javascript</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1> o que o Javascript pode fazer ?? </h1>
+
+<a href="http://www.w3schools.com/js/js_intro.asp">fonte</a><br>
+
+<p id="LupaLupa">Frase que vai ser mudado o estilo </p>
+
+<script>
+
+function MudaEstilo() {
+	var x = document.getElementById("LupaLupa");
+	x.style.fontSize = "25px";
+	x.style.color    = "red";
+}
+</script>
+
+<button type="button" onclick="MudaEstilo()"> Me clica </button>
+
+
+</body>
+</html>

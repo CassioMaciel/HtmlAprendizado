@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>esse é o exemplo 4 de javascript</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1> o que o Javascript pode fazer ?? </h1>
+
+<a href="http://www.w3schools.com/js/js_intro.asp">fonte</a><br>
+
+<p>Por favor coloque um numero entre 1 e 10</p>
+
+<input id="numero" type="number">
+
+<button type="button" onclick="minhaFunc()"> Submeter </button>
+
+<p id="Suruba"></p>
+
+<script>
+function minhaFunc(){
+	var x,text;
+
+	//pega o valor do input com o id "numero"
+	x = document.getElementById("numero").value;
+
+	//Se não for numero, ou menor que 1, ou maior que 10
+	if (isNaN(x) || x<1 || x>10){
+		text = "Não é valido essa entrada";
+	}
+	else {
+		text = "Entrada ok";
+	}
+	document.getElementById('Suruba').innerHTML = text;
+        
+}
+</script>
+
+</body>
+</html>

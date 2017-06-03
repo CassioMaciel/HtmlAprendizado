@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>esse é o exemplo 2 de javascript</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1> o que o Javascript pode fazer ?? </h1>
+
+<a href="http://www.w3schools.com/js/js_intro.asp">fonte</a><br>
+
+<p id="demo"> Javascript pode mudar a foto ao clicar sobre ela</p>
+
+<img id="myimg" onclick="mudaimg()" src="/bgimg/glamorous_woman-wallpaper-1366x768.jpg" width="600">
+
+<script>
+function mudaimg(){
+	var image=document.getElementById('myimg')
+	if (image.src.match('lambo')) {
+		image.src="/bgimg/glamorous_woman-wallpaper-1366x768.jpg"		
+	}
+	else{
+		image.src="/bgimg/lamborghini_47-wallpaper-1366x768.jpg"
+	}
+}
+</script>
+
+</body>
+</html>
+

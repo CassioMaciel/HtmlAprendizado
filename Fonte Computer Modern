@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta charset="UTF-8"> 
+<title>Esse é um site que testa o uso da fonte Computer Modern</title>
+
+<style type="text/css">
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+    font-style: italic, oblique;
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic, oblique;
+  }
+
+  body {
+    font-family: "Computer Modern", sans-serif;
+  }
+</style>
+<body>
+<!-- Fonte: http://stackoverflow.com/questions/6476351/how-to-use-the-computer-modern-font-in-webpages  -->
+
+<pre>
+<center><h1> Teste da fonte <b>COMPUTER MODERN</b></h1></center>
+olá, como ficou essa fonte ? ficou boa ? Acho que sim
+</pre>
+</head>
